@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# Editors and temporary files
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.bak
+
+# Local environment and secrets; keep shareable examples
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.key
+*.pem
+credentials.json
+
+# Logs
+*.log
+logs/
+
+# Dependencies and package manager caches
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.pnp.*
+
+# Generated builds, caches and test reports
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+.playwright-cli/
